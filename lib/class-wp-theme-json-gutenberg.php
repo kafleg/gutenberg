@@ -105,6 +105,7 @@ class WP_Theme_JSON_Gutenberg {
 		'layout'          => array(
 			'contentSize' => null,
 			'wideSize'    => null,
+			'outerPadding' => null,
 		),
 		'spacing'         => array(
 			'blockGap' => null,
