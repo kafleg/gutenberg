@@ -12,7 +12,7 @@
  * @param string   $content    Block default content.
  * @param WP_Block $block      Block instance.
  *
- * @return string Returns the previous posts link for the query pagination.
+ * @return string Returns the previous comments link for the query pagination.
  */
 function render_block_core_comments_pagination_previous( $attributes, $content, $block ) {
 	$default_label    = __( 'Previous Comments' );
